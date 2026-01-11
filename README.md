@@ -39,8 +39,9 @@ This will generate the static library libftprintf.a.
 ## Usage
 
 Include the header file and link the library in your project:
-
+```bash
 #include "ft_printf.h"
+```
 
 ## Example usage:
 ```bash
@@ -67,7 +68,7 @@ Returns the number of characters printed
 
 The total number of printed characters is accumulated and returned.
 
-## Data Structures
+### Data Structures
 
 va_list is used to manage variadic arguments.
 
