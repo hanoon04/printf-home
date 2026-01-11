@@ -33,20 +33,21 @@ The following format specifiers are supported:
 To compile the project, run:
 ```bash
 make
-
+```
 This will generate the static library libftprintf.a.
 
-Usage
+## Usage
 
 Include the header file and link the library in your project:
 
 #include "ft_printf.h"
 
-Example usage:
-
+## Example usage:
+```bash
 ft_printf("Number: %d, String: %s, Pointer: %p\n", 42, "Hello", ptr);
-Algorithm and Data Structure Explanation
-Algorithm
+```
+## Algorithm and Data Structure Explanation
+### Algorithm
 
 ft_printf iterates through the format string character by character.
 
@@ -66,7 +67,7 @@ Returns the number of characters printed
 
 The total number of printed characters is accumulated and returned.
 
-Data Structures
+## Data Structures
 
 va_list is used to manage variadic arguments.
 
@@ -82,18 +83,19 @@ A dispatcher function avoids complex conditional logic inside ft_printf.
 
 Recursion simplifies number conversion while avoiding forbidden standard library functions.
 
-Resources
-References
-
+## Resources
+### References
+```bash
 man printf
-
+```
+```bash
 man stdarg
-
+```
 GNU C Library Documentation
 
 42 Network documentation
 
-Use of AI
+## Use of AI
 
 AI tools were used as assistance to:
 
