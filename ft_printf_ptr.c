@@ -33,7 +33,7 @@ int	ft_print_ptr(void *ptr)
 	write(1, "0x", 2);
 	if (ptr == NULL)
 	{
-		write(1, "0", 1);
+		write(1, "nil", 3);
 		return (3);
 	}
 	p = (unsigned long)ptr;
